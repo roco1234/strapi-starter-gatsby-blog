@@ -9,7 +9,6 @@ const Card = ({ article }) => {
         <div className="uk-card-media-top">
           <GatsbyImage
             image={article.node.image.localFile.childImageSharp.gatsbyImageData}
-            alt={`Hero image`}
           />
         </div>
         <div className="uk-card-body">

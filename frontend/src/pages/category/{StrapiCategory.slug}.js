@@ -53,6 +53,7 @@ const Category = ({ data }) => {
         <div className="uk-container uk-container-large">
           <div></div>
           <h1 style={{ color: "#999" }}>{category}</h1>
+          <img src="../../assets/canvas-oil-La-Grande-Jatte-Georges-Seurat-1884.jpeg" />
           <ArticlesComponent articles={articles} />
         </div>
       </div>

@@ -38,7 +38,6 @@ export const query = graphql`
 const Article = ({ data }) => {
   const article = data.strapiArticle;
   const seo = {
-    metaTitle: article.title,
     metaDescription: article.description,
     shareImage: article.image,
     article: true,

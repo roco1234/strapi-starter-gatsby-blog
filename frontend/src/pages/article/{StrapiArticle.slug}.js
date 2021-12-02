@@ -52,7 +52,6 @@ const Article = ({ data }) => {
             style={{
               gridArea: "1/1",
             }}
-            alt={`Picture for ${article.title} article`}
             image={article.image.localFile.childImageSharp.gatsbyImageData}
             layout="fullWidth"
           />
@@ -83,7 +82,6 @@ const Article = ({ data }) => {
                       article.author.picture.localFile.childImageSharp
                         .gatsbyImageData
                     }
-                    alt={`Picture of ${article.author.name}`}
                     style={{ borderRadius: "50%" }}
                   />
                 )}

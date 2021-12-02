@@ -28,7 +28,6 @@ const Card = ({ article }) => {
                       article.node.author.picture.localFile.childImageSharp
                         .gatsbyImageData
                     }
-                    alt={`Picture of ${article.node.author.name}`}
                     style={{ borderRadius: "50%" }}
                   />
                 )}
